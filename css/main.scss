@@ -1,0 +1,37 @@
+@import 'settings';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+
+
+* {
+box-sizing: border-box;
+}
+body{
+  padding: 100px;
+  background: lightgray;
+}
+
+#box1{
+  width: 960px;
+  border: 1px solid $color1;
+  padding: $padding;
+
+  &:hover{
+    background: $gradient;
+  }
+    h1{
+      color: $color2;
+      }
+}
+
+#box2{
+  border: 1px solid $color2;
+  padding: $padding;
+  transition: ease 5s;
+  &:hover{
+    background:pink;
+    padding: $paddingHover;
+  }
+}
+#box2 > h1{
+  color: darken($color2, 10%);
+}

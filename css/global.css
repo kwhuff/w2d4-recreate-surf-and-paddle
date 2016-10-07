@@ -1,0 +1,331 @@
+a {
+  color: #abbbc7;
+}
+
+.top_links {
+  color: #003352;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-background {
+  background: url(https://unsplash.it/800/400/?image=101);
+  background-size: cover;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay:before {
+  display: block;
+}
+
+.hue:before {
+  background-color: rgba(16, 109, 179, 0.7);
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header img {
+  height: 40px;
+  opacity: 1;
+}
+
+.main_title {
+  padding-top: 175px;
+}
+
+.heading_nav {
+  font-family: "Oswald", sans-serif;
+  padding-right: 80px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.mini_title_text {
+  font-size: 18px;
+  vertical-align: bottom;
+  color: #003353;
+  font-family: 'Gudea', sans-serif;
+  font-weight: bold;
+}
+
+.main_title {
+  font-size: 110px;
+  margin: 0;
+  font-family: 'Gudea', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.title_subtext {
+  padding-bottom: 100px;
+  color: #003353;
+}
+
+.title_pad {
+  padding-bottom: 140px;
+}
+
+.heading_left {
+  padding-top: 10px;
+  height: 50px;
+}
+
+.text-right {
+  padding-top: 10px;
+  padding-right: 150px;
+}
+
+.body_title {
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  color: #003353;
+}
+
+.img_under_text {
+  color: #0073BA;
+}
+
+.img_under_text img {
+  border-radius: 50%;
+}
+
+.body_text {
+  line-height: 30px;
+  font-size: 18px;
+  color: #6c767d;
+}
+
+.body_insert {
+  padding: 10px;
+  padding-left: 25px;
+  font-size: 30px;
+  color: #0073BA;
+}
+
+.exclaim {
+  padding: 5px;
+  padding-left: 25px;
+  border-left: 1px solid grey;
+  font-family: 'Gudea', sans-serif;
+}
+
+.img_right {
+  border-radius: 50%;
+}
+
+.content-right {
+  padding-top: 45px;
+  padding: 45px;
+}
+
+.blue {
+  color: #0073BA;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.social_media {
+  color: lightgrey;
+}
+
+.ad_link {
+  padding-right: 0px;
+  text-decoration: underline;
+}
+
+.sidebar_title {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  color: #0073BA;
+  padding-top: 30px;
+}
+
+.sidebar_text {
+  text-align: left;
+  color: lightgrey;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 25px;
+}
+
+.footer_border {
+  border-top: 1px solid lightgrey;
+}
+
+.blog_photos {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.blog_photo_1 {
+  background: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(http://unsplash.it/400/400/?image=88);
+  background-size: cover;
+  height: 25vw;
+  color: #003352;
+}
+
+.blog_photo_1:hover {
+  background: linear-gradient(rgba(16, 109, 179, 0), rgba(16, 109, 179, 0)), url(http://unsplash.it/400/400/?image=88);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog_photo_2 {
+  background: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(http://unsplash.it/400/400/?image=99);
+  background-size: cover;
+  height: 25vw;
+  color: #003352;
+}
+
+.blog_photo_2:hover {
+  background: linear-gradient(rgba(16, 109, 179, 0), rgba(16, 109, 179, 0)), url(http://unsplash.it/400/400/?image=99);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog_photo_3 {
+  background: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(http://unsplash.it/400/400/?image=110);
+  background-size: cover;
+  height: 25vw;
+  color: #003352;
+}
+
+.blog_photo_3:hover {
+  background: linear-gradient(rgba(16, 109, 179, 0), rgba(16, 109, 179, 0)), url(http://unsplash.it/400/400/?image=110);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog_photo_4 {
+  background: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(http://unsplash.it/400/400/?image=98);
+  background-size: cover;
+  height: 25vw;
+  color: #003352;
+}
+
+.blog_photo_4:hover {
+  background: linear-gradient(rgba(16, 109, 179, 0), rgba(16, 109, 179, 0)), url(http://unsplash.it/400/400/?image=98);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer_title {
+  padding: 20px;
+}
+
+.advert {
+  width: 100%;
+}
+
+.grey_buttons {
+  background-color: #a0b3c0;
+  padding-left: 0;
+  padding: 6px;
+  padding-bottom: 5px;
+  color: white;
+  display: inline-block;
+}
+
+.blue_button {
+  background-color: #0069b6;
+  padding: 6px;
+  padding-bottom: 5px;
+  color: white;
+  display: inline-block;
+}
+
+.logo_color1 {
+  background-color: #5c6870;
+  margin: 0;
+  padding: 6px;
+}
+
+.logo_color2 {
+  background-color: #003353;
+  margin: 0;
+  padding: 6px;
+}
+
+.reader_buttons > li {
+  padding-left: 0px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 6px;
+}
+
+.divider {
+  width: 9px;
+  height: auto;
+  display: inline-block;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.heather {
+  color: #abbbc7;
+}
+
+.TIY_logo {
+  height: 39px;
+}
+
+.nav_links {
+  padding-top: 10px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blog_title_text {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  font-size: 4vw;
+  padding-left: 14px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer_left {
+  padding: 20px;
+  text-align: center;
+  background-color: #003353;
+  color: #abbbc7;
+}
+
+.footer_right {
+  padding: 20px;
+  text-align: center;
+  background-color: #003353;
+}
+
+.footer_footer {
+  position: relative;
+}
